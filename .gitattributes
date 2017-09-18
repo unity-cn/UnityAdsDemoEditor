@@ -1,3 +1,4 @@
 *.js linguist-language=CSharp
 *.css linguist-language=CSharp
 *.html linguist-language=CSharp
+*.m linguist-language=CSharp
