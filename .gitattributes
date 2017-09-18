@@ -2,3 +2,7 @@
 *.css linguist-language=CSharp
 *.html linguist-language=CSharp
 *.m linguist-language=CSharp
+*.mm linguist-language=CSharp
+*.o linguist-language=CSharp
+*.cc linguist-language=CSharp
+*.h linguist-language=CSharp
