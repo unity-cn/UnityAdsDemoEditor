@@ -7,21 +7,14 @@ public class Configuration {
 	/// <summary>
 	/// Game ID
 	/// </summary>
-	public static string snakeGameId = "1210390";
-	// android, useless
-	public static string crossyRoadGameId = "131624390"; 
-	// project name : Unity Ads Demo Editor
 	public static string myGameIdiOS = "1544006"; 
 	public static string myGameIdAndroid = "1544208"; 
-	public static string tempGameId = "1394428";
 
 	/// <summary>
 	/// Replacement ID
 	/// </summary>
 	public static string skippablePlacementId = "video";
 	public static string unskippablePlacementId = "rewardedVideo";
-	public static string unskippablePlacementId2 = "rewardedVideoZone";
-	public static string longTimeSkippablePlacementId = "defaultVideoAndPictureZone";
 
 	/// <summary>
 	/// Video Stats

@@ -8,10 +8,6 @@ using UnityEngine.Advertisements;
 [RequireComponent(typeof(Button))]
 public class TestUnityAds : MonoBehaviour {
 
-	ColorBlock newColorBlock = new ColorBlock();
-	public Color green = new Color(0.1F, 0.8F, 0.1F, 1.0F);
-
-
 	//---------- ONLY NECESSARY FOR ASSET PACKAGE INTEGRATION: ----------//
 
 	#if UNITY_IOS
@@ -22,22 +18,22 @@ public class TestUnityAds : MonoBehaviour {
 
 	//-------------------------------------------------------------------//
 
-	// 观看视频广告后获得的硬币奖励
+	// 观看视频广告后获得的硬币奖励 -- Rewarded Coin Amount Text
 	public Text m_CoinText;
 	// Game ID
 	public Text m_GameIDText;
 	// Replacement ID
 	public Text m_ReplacementIDText;
-	// Stats输出信息
+	// Stats输出信息 -- Stats Text
 	public Text m_StatsText;
-	// 奖励视频按钮提示
+	// 奖励视频按钮提示 -- Button info
 	public Text m_ButtonText;
 
-	// 奖励视频按钮
+	// 奖励视频按钮 -- Show Ads Button
 	Button m_Button;
-	// 奖励硬币
+	// 奖励硬币 -- RewardedCoin Amount
 	int m_RewardedCoin = 0;
-	// 奖励视频是否可用
+	// 奖励视频是否可用 -- Rewarded Video Available
 	bool m_IsVideoAvailable = false;
 
 	public string placementId = "rewardedVideo";
